@@ -11,6 +11,7 @@ CREATE TABLE `t_vote_item` (
  `vote_id` int(11) NOT NULL,
  `option` varchar(32) NOT NULL,
  `op_desc` varchar(256) NOT NULL,
+ `order` int(11) NOT NULL,
  `count` int(11) NOT NULL,
  PRIMARY KEY (`id`)
 ) DEFAULT CHARSET=utf8;
